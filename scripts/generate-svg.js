@@ -14,10 +14,16 @@ const graphqlWithAuth = graphql.defaults({
 });
 
 async function main() {
-  // a) Compute date range: one year ago → today
+  // a) Compute “one year ago” and “today” as full ISO 8601 strings
   const today = dayjs();
-  const oneYearAgo = today.subtract(1, "year").add(1, "day").format("YYYY-MM-DD");
-  const endDate = today.format("YYYY-MM-DD");
+  const oneYearAgo = today
+    .subtract(1, "year")
+    .add(1, "day")
+    .startOf("day")
+    .toISOString();      // e.g. "2024-06-05T00:00:00.000Z"
+  const endDate = today
+    .endOf("day")
+    .toISOString();      // e.g. "2025-06-04T23:59:59.999Z"
 
   // b) Fetch contribution calendar via GraphQL
   const query = `
@@ -45,7 +51,7 @@ async function main() {
 
   const weeks = response.user.contributionsCollection.contributionCalendar.weeks;
 
-  // c) Build SVG dimensions
+  // c) Build SVG dimensions (7 rows × N weeks)
   const cellSize = 12; // each square is 12×12 px
   const gap = 2;       // 2px gap between squares
   const svgWidth = weeks.length * (cellSize + gap) + gap;
@@ -91,4 +97,3 @@ main().catch(err => {
   console.error(err);
   process.exit(1);
 });
-
