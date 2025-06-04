@@ -9,13 +9,14 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}   # make the PAT available to all steps
+      # Provide your PAT only for GraphQL calls:
+      GRAPHQL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # fetch full history
+          fetch-depth: 0    # fetch full history so past contributions are visible
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -27,7 +28,7 @@ jobs:
 
       - name: Generate contributions.svg
         run: npm run generate-svg
-        # GITHUB_TOKEN is already set at the job level, so generate-svg.js can use it
+        # generate-svg.js now uses process.env.GRAPHQL_TOKEN for GraphQL
 
       - name: Commit & Push if changed
         run: |
@@ -40,3 +41,4 @@ jobs:
           else
             echo "No changes in contributions.svg"
           fi
+        # No env override here—so GITHUB_TOKEN (the built-in) is used for authentication
