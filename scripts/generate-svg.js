@@ -9,7 +9,7 @@ const USERNAME = "MusaedMusaedSadeqMusaedAl-Fareh225739";
 // 2) Authenticate via the GITHUB_TOKEN secret
 const graphqlWithAuth = graphql.defaults({
   headers: {
-    authorization: `token ${process.env.GITHUB_TOKEN}`,
+    authorization: `token ${process.env.GRAPHQL_TOKEN}`,
   },
 });
 
