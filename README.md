@@ -4,3 +4,4 @@
 
 ![Contributions](contributions.svg)
 
+[![Musaed's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github-compact)](https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739)
