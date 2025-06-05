@@ -1,5 +1,5 @@
 <h1 align="center">Hey 👋, I'm Musaed Al-Fareh</h1>
-<h3 align="center"><em>Applied AI Engineer | Full-Stack Developer | AI Marketplace Builder</em></h3>
+<h3 align="center"><em>Applied AI Engineer | Full-Stack Developer </em></h3>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=MusaedMusaedSadeqMusaedAl-Fareh225739&color=0E75B6&style=flat-square" alt="visitors"/>
@@ -10,13 +10,13 @@
 ## 🚀 About Me
 
 🎯 I’m passionate about building **AI-powered products that work**.  
-I combine **AI / ML / LLMs**, full-stack engineering, blockchain integration, and real-world deployment — with special focus on developing full AI pipelines, marketplaces, and SaaS platforms.
+I combine AI/ML/ LLMs, full-stack engineering, blockchain integration, and real-world deployment, with a special focus on developing comprehensive AI pipelines, marketplaces, and SaaS platforms.
 
 Currently working on:
 
-- 🛠 **AI Blockify**: AI model marketplace (LLMs + Fine-tuning + Blockchain)
-- 🧪 Applied AI: Emotion classification, sentiment models, vector search, embeddings, real-time inference
-- 🌐 Full-stack SaaS deployments with complete DevOps & CI/CD pipelines
+- 
+-  Applied AI: Emotion classification, sentiment models, vector search, embeddings, real-time inference
+-  Full-stack SaaS deployments with complete DevOps & CI/CD pipelines
 
 > "I don’t build prototypes — I build real-world solutions."
 
@@ -70,14 +70,6 @@ Currently working on:
 
 ---
 
-## 📊 Contributions
-
-**02 contributions in the last year**
-
-- 🔧 9% Code Review  
-- 🐞 17% Issues  
-- 🚀 9% Pull Requests  
-- ✅ Contributed to multiple AI, SaaS and ML projects
 
 ---
 
