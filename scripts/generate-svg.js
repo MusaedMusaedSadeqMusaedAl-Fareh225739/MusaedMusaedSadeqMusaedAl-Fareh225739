@@ -1,12 +1,11 @@
-// scripts/generate-svg.js
 import { graphql } from "@octokit/graphql";
 import fs from "fs-extra";
 import dayjs from "dayjs";
 
-// 1) YOUR GitHub username (must match the repo name exactly)
+// Your GitHub username
 const USERNAME = "MusaedMusaedSadeqMusaedAl-Fareh225739";
 
-// 2) Authenticate via the GITHUB_TOKEN secret
+// Auth with your PAT passed as GRAPHQL_TOKEN env variable
 const graphqlWithAuth = graphql.defaults({
   headers: {
     authorization: `token ${process.env.GRAPHQL_TOKEN}`,
@@ -14,18 +13,11 @@ const graphqlWithAuth = graphql.defaults({
 });
 
 async function main() {
-  // a) Compute “one year ago” and “today” as full ISO 8601 strings
   const today = dayjs();
-  const oneYearAgo = today
-    .subtract(1, "year")
-    .add(1, "day")
-    .startOf("day")
-    .toISOString();      // e.g. "2024-06-05T00:00:00.000Z"
-  const endDate = today
-    .endOf("day")
-    .toISOString();      // e.g. "2025-06-04T23:59:59.999Z"
+  const oneYearAgo = today.subtract(1, "year").add(1, "day").startOf("day").toISOString();
+  const endDate = today.endOf("day").toISOString();
 
-  // b) Fetch contribution calendar via GraphQL
+  // Fetch contribution data
   const query = `
     query ($username: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $username) {
@@ -51,44 +43,42 @@ async function main() {
 
   const weeks = response.user.contributionsCollection.contributionCalendar.weeks;
 
-  // c) Build SVG dimensions (7 rows × N weeks)
-  const cellSize = 12; // each square is 12×12 px
-  const gap = 2;       // 2px gap between squares
+  const cellSize = 12;
+  const gap = 3;
   const svgWidth = weeks.length * (cellSize + gap) + gap;
   const svgHeight = 7 * (cellSize + gap) + gap;
 
-  // d) Helper: choose fill color per day
-  function colorFor(dayObj) {
-    const dateStr = dayObj.date;
-    if (dateStr === today.format("YYYY-MM-DD")) {
-      return "#FF69B4"; // pink for today
-    }
-    const count = dayObj.contributionCount;
-    if (count === 0) return "#ebedf0";      // no contributions
-    if (count < 3) return "#9be9a8";         // light green
-    if (count < 6) return "#40c463";         // medium green
-    return "#30a14e";                        // dark green
+  // Color scale (GitHub native colors)
+  function getFillColor(day) {
+    const count = day.contributionCount;
+    if (day.date === today.format("YYYY-MM-DD")) return "#f97583"; // Today's pink
+
+    if (count === 0) return "#161b22";       // Empty cell (dark background)
+    if (count < 3) return "#0e4429";
+    if (count < 6) return "#006d32";
+    if (count < 10) return "#26a641";
+    return "#39d353";
   }
 
-  // e) Generate <rect> entries for each day
   let rects = "";
-  weeks.forEach((week, wIdx) => {
-    week.contributionDays.forEach((day, dIdx) => {
-      const x = wIdx * (cellSize + gap) + gap;
-      const y = dIdx * (cellSize + gap) + gap;
-      const fill = colorFor(day);
-      rects += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" fill="${fill}"/>`;
+
+  // Build rectangles for each day
+  weeks.forEach((week, weekIndex) => {
+    week.contributionDays.forEach((day, dayIndex) => {
+      const x = weekIndex * (cellSize + gap) + gap;
+      const y = dayIndex * (cellSize + gap) + gap;
+      const fill = getFillColor(day);
+      rects += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" fill="${fill}" rx="3" />`;
     });
   });
 
-  // f) Wrap in an <svg> block
+  // Add full dark background
   const svgContent = `
-    <svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">
+    <svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg" style="background-color:#0d1117">
       ${rects}
     </svg>
   `;
 
-  // g) Write to contributions.svg
   await fs.outputFile("contributions.svg", svgContent.trim());
   console.log("✅ contributions.svg generated");
 }
@@ -97,3 +87,4 @@ main().catch(err => {
   console.error(err);
   process.exit(1);
 });
+
