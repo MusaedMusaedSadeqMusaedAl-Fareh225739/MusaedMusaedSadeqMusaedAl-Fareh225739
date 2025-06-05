@@ -1,6 +1,6 @@
 <!-- ─────────────────────────  HEADER  ───────────────────────── -->
 <h1 align="center">Hi there 👋  I’m Musaed Al-Fareh</h1>
-<h4 align="center"><em>Applied AI Engineer • Full-Stack Developer</em></h4>
+<h4 align="center"><em>Applied AI Engineer • Full-Stack Developer</em></h4>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=MusaedMusaedSadeqMusaedAl-Fareh225739&color=0E75B6&style=flat-square" alt="visitor badge"/>
@@ -14,7 +14,7 @@
     <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://alfareh.nl" target="_blank">
-    <img alt="Website" src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
   </a>
 </p>
 
@@ -22,14 +22,14 @@
 
 ## 🚀 About Me
 
-I build **production-ready AI systems**, end-to-end:
+I build **production-ready AI systems, end-to-end**:
 
 - **AI Infrastructure & LLMs** — data pipelines, fine-tuning, vector search, scalable inference  
-- **Applied NLP** — emotion & sentiment analysis, RAG, embeddings, real-time classification  
+- **Applied NLP** — emotion & sentiment analytics, RAG, embeddings, real-time classification  
 - **SaaS Platforms** — multi-tenant back-ends, CI/CD, DevOps, IaC, observability  
 - **Web3 Bridges** — model ownership, on-chain licensing & monetisation
 
-> “I don’t ship prototypes – I deliver real-world solutions.”
+> *I don’t ship prototypes – I deliver real-world solutions.*
 
 ---
 
@@ -45,25 +45,25 @@ I build **production-ready AI systems**, end-to-end:
 <tr>
 <td>
 
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,sass,tailwind" />
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,sass,tailwind"/>
 
 </td>
 <td>
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />  
-<img src="https://img.shields.io/badge/HuggingFace-F9A03C?style=flat-square&logo=huggingface&logoColor=white"/>  
-<img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white"/>  
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+<img src="https://img.shields.io/badge/HuggingFace-F9A03C?style=flat-square&logo=huggingface&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
 
 </td>
 <td>
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,firebase,vercel,netlify,nginx,cloudflare,git,github" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,firebase,vercel,netlify,nginx,cloudflare,git,github"/>
 
 </td>
 <td>
 
-<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white"/>  
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white"/>
 <img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white"/>
 
 </td>
@@ -72,14 +72,25 @@ I build **production-ready AI systems**, end-to-end:
 
 ---
 
-## 📈 GitHub Activity Snapshot
+## 📈 GitHub Highlights
 
 <p align="center">
+  <!-- profile trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=darkhub&no-frame=true&margin-w=6&margin-h=6"/>
+</p>
+
+<p align="center">
+  <!-- contribution streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github-dark&hide_border=true" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+  <!-- activity graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github-compact" alt="activity graph"/>
 </p>
 
 <details>
-<summary>📊 Detailed Stats</summary>
+<summary>📊 Detailed Repo Stats</summary>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=github_dark&hide_title=true" height="165"/>
