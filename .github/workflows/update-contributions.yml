@@ -9,35 +9,47 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      # Expose your PAT only for GraphQL calls:
+      # Only expose your PAT for GraphQL API calls:
       GRAPHQL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
     steps:
+      # 1. Checkout (uses the built-in GITHUB_TOKEN under the hood)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
+      # 2. Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "18.x"
 
+      # 3. Install dependencies
       - name: Install dependencies
         run: npm install
 
+      # 4. Generate contributions.svg (uses GRAPHQL_TOKEN internally)
       - name: Generate contributions.svg
         run: npm run generate-svg
 
-      - name: Commit & Push if changed
+      # 5. Commit only if changes exist
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n $(git status --porcelain) ]]; then
             git add contributions.svg
             git commit -m "chore: update contributions.svg [skip ci]"
-            git push
           else
             echo "No changes in contributions.svg"
+            exit 0
           fi
+
+      # 6. Push via github-push-action, explicitly using GITHUB_TOKEN
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
