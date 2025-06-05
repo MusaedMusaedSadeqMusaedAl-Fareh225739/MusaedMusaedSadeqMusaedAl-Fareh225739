@@ -1,5 +1,9 @@
 name: Regenerate Contributions SVG
 
+# 👇 give the automatic GITHUB_TOKEN write access so pushes succeed
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "10 00 * * *"   # daily at 00:10 UTC
@@ -9,33 +13,33 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      # Only expose your PAT for GraphQL API calls:
+      # Expose your personal PAT only for GraphQL calls
       GRAPHQL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
     steps:
-      # 1. Checkout (uses the built-in GITHUB_TOKEN under the hood)
+      # 1 Checkout with built-in GITHUB_TOKEN (credentials persisted for push)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      # 2. Set up Node.js
+      # 2 Set up Node
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "18.x"
 
-      # 3. Install dependencies
+      # 3 Install deps
       - name: Install dependencies
         run: npm install
 
-      # 4. Generate contributions.svg (uses GRAPHQL_TOKEN internally)
+      # 4 Generate the SVG (uses GRAPHQL_TOKEN internally)
       - name: Generate contributions.svg
         run: npm run generate-svg
 
-      # 5. Commit only if changes exist
-      - name: Commit changes
+      # 5 Commit only if the file changed
+      - name: Commit SVG if updated
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,7 +51,7 @@ jobs:
             exit 0
           fi
 
-      # 6. Push via github-push-action, explicitly using GITHUB_TOKEN
+      # 6 Push using the built-in GITHUB_TOKEN (now has write perms)
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
