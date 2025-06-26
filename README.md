@@ -36,43 +36,42 @@ I build **production-ready AI systems, end-to-end**:
 ## 🛠 Tech Stack (Selection)
 
 <table>
-<tr>
-<td align="center"><strong>Languages & Frameworks</strong></td>
-<td align="center"><strong>AI / ML Tooling</strong></td>
-<td align="center"><strong>Cloud & DevOps</strong></td>
-<td align="center"><strong>Blockchain / Web3</strong></td>
-</tr>
-<tr>
-<td>
-
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,sass,tailwind"/>
-
-</td>
-<td>
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
-<img src="https://img.shields.io/badge/HuggingFace-F9A03C?style=flat-square&logo=huggingface&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-
-</td>
-<td>
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,firebase,vercel,netlify,nginx,cloudflare,git,github"/>
-
-</td>
-<td>
-
-<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white"/>
-<img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white"/>
-
-</td>
-</tr>
+  <tr>
+    <td align="center"><strong>Languages & Frameworks</strong></td>
+    <td align="center"><strong>AI / ML Tooling</strong></td>
+    <td align="center"><strong>Cloud & DevOps</strong></td>
+    <td align="center"><strong>Blockchain / Web3</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,sass,tailwind"/>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+      <img src="https://img.shields.io/badge/HuggingFace-F9A03C?style=flat-square&logo=huggingface&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,firebase,vercel,netlify,nginx,cloudflare,git,github"/>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white"/>
+    </td>
+  </tr>
 </table>
 
 ---
 
 ## 📈 GitHub Highlights
+
+<p align="center">
+  <!-- Main stats card with donut-grade -->
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&custom_title=Musaed%20Al-Fareh's%20GitHub%20Stats"
+    alt="Musaed Al-Fareh's GitHub Stats" />
+</p>
 
 <p align="center">
   <!-- 1) Profile Details -->
@@ -96,13 +95,12 @@ I build **production-ready AI systems, end-to-end**:
 </p>
 
 <details>
-<summary>📊 Detailed Repo Stats</summary>
+  <summary>📊 Detailed Repo Stats</summary>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=github_dark&hide_title=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&layout=compact&theme=github_dark&hide_title=true" height="165"/>
-</p>
-
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=github_dark&hide_title=true" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&layout=compact&theme=github_dark&hide_title=true" height="165"/>
+  </p>
 </details>
 
 ---
