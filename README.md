@@ -67,10 +67,10 @@ I build **production-ready AI systems, end-to-end**:
 ## 📈 GitHub Highlights
 
 <p align="center">
-  <!-- Main stats card with donut-grade -->
+  <!-- Main stats card with private & all commits -->
   <img
     src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&custom_title=Musaed%20Al-Fareh's%20GitHub%20Stats"
-    alt="Musaed Al-Fareh's GitHub Stats" />
+    alt="Musaed Al-Fareh's GitHub Stats (incl. private)" />
 </p>
 
 <p align="center">
