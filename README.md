@@ -88,11 +88,7 @@ I build **production-ready AI systems, end-to-end**:
     alt="Trophy" />
 </p>
 
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/overview?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark"
-    alt="Activity Overview" />
-</p>
+
 
 <details>
 <summary>📊 Detailed Repo Stats</summary>
