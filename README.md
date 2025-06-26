@@ -75,18 +75,18 @@ I build **production-ready AI systems, end-to-end**:
 ## 📈 GitHub Highlights
 
 <p align="center">
-  <!-- 1) Profile Details (⭐ Total Stars, 🔀 Commits, etc.) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark" alt="Profile Details" />
+  <!-- profile trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=darkhub&no-frame=true&margin-w=6&margin-h=6"/>
 </p>
 
 <p align="center">
-  <!-- 2) Trophies (Languages, Followers, Commits, PRs, etc.) -->
-  <img src="https://github-profile-trophy.vercel.app/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=darkhub&no-frame=true&margin-w=6&margin-h=6" alt="Trophy" />
+  <!-- contribution streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github-dark&hide_border=true" alt="GitHub streak"/>
 </p>
 
 <p align="center">
-  <!-- 3) Activity Overview (radar chart of Commits / PRs / Issues / Reviews / Code Reviews) -->
-  <img src="https://github-readme-stats.vercel.app/api/overview?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark" alt="Activity Overview" />
+  <!-- activity graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github-compact" alt="activity graph"/>
 </p>
 
 <details>
