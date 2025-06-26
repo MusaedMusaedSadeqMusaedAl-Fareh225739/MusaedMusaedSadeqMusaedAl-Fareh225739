@@ -89,9 +89,8 @@ I build **production-ready AI systems, end-to-end**:
 </p>
 
 <p align="center">
-  <!-- 3) Activity Overview -->
   <img
-    src="https://github-readme-stats.vercel.app/api/overview?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/overview?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark"
     alt="Activity Overview" />
 </p>
 
