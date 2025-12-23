@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I build **production-ready AI systems, end-to-end**:
 
@@ -33,7 +33,7 @@ I build **production-ready AI systems, end-to-end**:
 
 ---
 
-## 🛠 Tech Stack (Selection)
+## Tech Stack (Selection)
 
 <table>
   <tr>
@@ -64,7 +64,7 @@ I build **production-ready AI systems, end-to-end**:
 
 ---
 
-## 📈 GitHub Highlights
+##  GitHub Highlights
 
 <p align="center">
   <!-- Main stats card (private & all commits) without the rank/donut -->
