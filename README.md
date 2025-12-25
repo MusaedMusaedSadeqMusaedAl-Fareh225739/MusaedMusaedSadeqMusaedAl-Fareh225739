@@ -1,6 +1,8 @@
 <!-- ─────────────────────────  HEADER  ───────────────────────── -->
-<h1 align="center">Hi there 👋  I’m Musaed Al-Fareh</h1>
-<h4 align="center"><em>Applied AI Engineer • Full-Stack Developer</em></h4>
+<h1 align="center">Hi there 👋 I’m Musaed Al-Fareh</h1>
+<h4 align="center">
+  <em>AI & Data Science Student (3rd Year) • Full-Stack Developer</em>
+</h4>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=MusaedMusaedSadeqMusaedAl-Fareh225739&color=0E75B6&style=flat-square" alt="visitor badge"/>
@@ -20,16 +22,20 @@
 
 ---
 
-##  About Me
+## About Me
 
-I build **production-ready AI systems, end-to-end**:
+I’m a **third-year AI & Data Science student** with a strong interest in **applied machine learning, NLP, and building complete AI-driven applications**.
 
-- **AI Infrastructure & LLMs** — data pipelines, fine-tuning, vector search, scalable inference  
-- **Applied NLP** — emotion & sentiment analytics, RAG, embeddings, real-time classification  
-- **SaaS Platforms** — multi-tenant back-ends, CI/CD, DevOps, IaC, observability  
-- **Web3 Bridges** — model ownership, on-chain licensing & monetisation
+Alongside my studies, I work on projects where I:
 
-> *I don’t ship prototypes – I deliver real-world solutions.*
+- design and train **machine learning and deep learning models**
+- build **NLP pipelines** for tasks like emotion and sentiment analysis
+- develop **full-stack web applications** that integrate AI models
+- experiment with **deployment, APIs, and basic MLOps practices**
+
+Most of my work focuses on learning by doing — turning ideas into working systems, understanding their limitations, and improving them step by step.
+
+> *I care about structure, clarity, and building things that actually run — even while still learning.*
 
 ---
 
@@ -38,87 +44,70 @@ I build **production-ready AI systems, end-to-end**:
 <table>
   <tr>
     <td align="center"><strong>Languages & Frameworks</strong></td>
-    <td align="center"><strong>AI / ML Tooling</strong></td>
-    <td align="center"><strong>Cloud & DevOps</strong></td>
-    <td align="center"><strong>Blockchain / Web3</strong></td>
+    <td align="center"><strong>AI / ML</strong></td>
+    <td align="center"><strong>Cloud & Dev</strong></td>
+    <td align="center"><strong>Exploring</strong></td>
   </tr>
   <tr>
     <td>
-      <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,sass,tailwind"/>
+      <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,fastapi,express,html,css,tailwind"/>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
       <img src="https://img.shields.io/badge/HuggingFace-F9A03C?style=flat-square&logo=huggingface&logoColor=white"/>
       <img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white"/>
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,firebase,vercel,netlify,nginx,cloudflare,git,github"/>
+      <img src="https://skillicons.dev/icons?i=docker,gcp,firebase,vercel,git,github"/>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MetaMask-F6851B?style=flat-square&logo=metamask&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Web3-Exploring-lightgrey?style=flat-square"/>
     </td>
   </tr>
 </table>
 
 ---
 
-##  GitHub Highlights
+## GitHub Activity
 
 <p align="center">
-  <!-- Main stats card (private & all commits) without the rank/donut -->
   <img
-    src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&show_rank=false&custom_title=Musaed%20Al-Fareh's%20GitHub%20Stats"
-    alt="Musaed Al-Fareh's GitHub Stats (incl. private, no donut)" />
+    src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show_rank=false"
+    alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <!-- Profile Details -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark"
     alt="Profile Details" />
 </p>
 
-<p align="center">
-  <!-- Trophies -->
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=darkhub&no-frame=true&margin-w=6&margin-h=6"
-    alt="Trophy" />
-</p>
-
-<p align="center">
-  <!-- Activity Overview -->
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/overview?username=MusaedMusaedSadeqMusaedAl-Fareh225739&theme=github_dark"
-    alt="Activity Overview" />
-</p>
-
 <details>
-  <summary>📊 Detailed Repo Stats</summary>
+  <summary>📊 Detailed Statistics</summary>
 
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=MusaedMusaedSadeqMusaedAl-Fareh225739&show_icons=true&theme=github_dark&hide_title=true" height="165"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&layout=compact&theme=github_dark&hide_title=true" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&layout=compact&theme=github_dark" height="165"/>
   </p>
 </details>
 
 ---
 
-## 📌 Pinned Repositories
+## 📌 Selected Projects
 
 <p align="center">
-  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/CkearML" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=CkearML&theme=github_dark" alt="CkearML"/>
+  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/CkearML">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=CkearML&theme=github_dark"/>
   </a>
-  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/AI-DataScience-Portfolio" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=AI-DataScience-Portfolio&theme=github_dark" alt="AI-DataScience-Portfolio"/>
+  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/AI-DataScience-Portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=AI-DataScience-Portfolio&theme=github_dark"/>
   </a>
-  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/emotion-unveiled-video-insights" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=emotion-unveiled-video-insights&theme=github_dark" alt="emotion-unveiled-video-insights"/>
+  <a href="https://github.com/MusaedMusaedSadeqMusaedAl-Fareh225739/emotion-unveiled-video-insights">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MusaedMusaedSadeqMusaedAl-Fareh225739&repo=emotion-unveiled-video-insights&theme=github_dark"/>
   </a>
 </p>
 
 ---
 
-<p align="center"><em>Building full AI pipelines & scalable SaaS products — not toy demos.</em></p>
+<p align="center">
+  <em>Learning by building, experimenting, and improving — one project at a time.</em>
+</p>
