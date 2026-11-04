@@ -11,7 +11,7 @@
 
 ## About
 
-I'm a third-year Applied AI & Data Science student at Breda University of Applied Sciences, currently working as the sole AI backend developer on a production voice assistant for Stedelijk Museum Breda.
+I'm a fourth-year Applied AI & Data Science student at Breda University of Applied Sciences, currently working as the sole AI backend developer on a production voice assistant for Stedelijk Museum Breda.
 
 My focus is on building AI systems that actually work outside of notebooks — production RAG pipelines, LLM inference optimization, and applied NLP. I've been building with these tools for over 1.5 years, and I care about the difference between a demo and a system that holds up under real conditions.
 
