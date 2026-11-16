@@ -1,6 +1,6 @@
 # Musaed Al-Fareh
 
-**AI Engineering Student (4rd Year) · LLM Systems · RAG Pipelines · NLP**
+**AI Engineering Student (4th Year) · LLM Systems · RAG Pipelines · NLP**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musaed-alfareh-a365521b9)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jimalfareh@gmail.com)
